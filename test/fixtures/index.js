@@ -3,7 +3,7 @@
 const fixtures = {
 	getProduct() {
 		return {
-			'name': 'televisor​ ​32 ​ ​LED',
+			'name': 'televisor 32 LED',
 			'price': 19999.99,
 			'list_price': 29999.99,
 			'brand': 'SONY',
@@ -22,7 +22,7 @@ const fixtures = {
 				'virtual': false
 			},
 			{
-				'name': 'televisor​ 50 4K',
+				'name': 'televisor 50 4K',
 				'price': 29999.99,
 				'list_price': 39999.99,
 				'brand': 'LG',
@@ -30,7 +30,7 @@ const fixtures = {
 				'virtual': false
 			},
 			{
-				'name': 'Microsoft OFFICE 365 ​PERSONAL',
+				'name': 'Microsoft OFFICE 365 PERSONAL',
 				'price': 999.99,
 				'list_price': 999.99,
 				'brand': 'Microsoft',

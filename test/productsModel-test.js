@@ -1,5 +1,5 @@
 const test = require('ava');
-const Product = require('../lib/models/products');
+const Product = require('../lib/models/product');
 const fixtures = require('./fixtures');
 
 test.beforeEach('instance Object products', t => {
@@ -21,6 +21,3 @@ test('List all products', async t => {
 	let result = await productObject.getProducts();
 	t.deepEqual(products, result);
 });
-
-test.todo('Save category product');
-test.todo('Get details of category by category_id');
